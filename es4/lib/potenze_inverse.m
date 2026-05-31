@@ -1,4 +1,4 @@
-function [lam, w, m] = invpot(A, p, z, tol, m_max)
+function [lam, w, m] = potenze_inverse(A, p, z, tol, m_max)
 
 flag = true;
 m = 1;

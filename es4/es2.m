@@ -14,9 +14,9 @@ A1 = [1 -2 0; 0 2 0; 1 1 3];
 A2 = [0.5 -2 0; 0 2 0; 1 1 3];
 A3 = [0 -2 0; 0 1 0; 1 1 3];
 
-[l1, w1, m1] = invpot(A1, p, z, tol, i);
-[l2, w2, m2] = invpot(A2, p, z, tol, i);
-[l3, w3, m3] = invpot(A3, p, z, tol, i);
+[l1, w1, m1] = potenze_inverse(A1, p, z, tol, i);
+[l2, w2, m2] = potenze_inverse(A2, p, z, tol, i);
+[l3, w3, m3] = potenze_inverse(A3, p, z, tol, i);
 
 l1
 w1

@@ -1,4 +1,4 @@
-function [A, m] = myQReig(A, tol, m_max);
+function [A, m] = tolQReig(A, tol, m_max);
 
 m = 0;
 flag = true;

@@ -14,9 +14,9 @@ A1 = [1 2 0; 1 0 0; 0 1 0];
 A2 = [0.1 3.8 0; 1 0 0; 0 1 0];
 A3 = [0 -1 0; 1 0 0; 0 1 0];
 
-[l1, m1] = pot(A1, z, tol, i);
-[l2, m2] = pot(A2, z, tol, i);
-[l3, m3] = pot(A3, z, tol, 10000000);
+[l1, m1] = potenze(A1, z, tol, i);
+[l2, m2] = potenze(A2, z, tol, i);
+[l3, m3] = potenze(A3, z, tol, 10000000);
 
 l1
 m1
